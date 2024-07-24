@@ -1,7 +1,7 @@
 # OS_fingerprinting
 Scripts that can be used for information gathering on machines during IR.
 
-Each directory contains a script that can be used. Naturally some of these commands do require some more specific parameters to be configured prior to running and you may need to run these as either `root` or with admin privilleges on Windows machines. Have some time? Checkout the directories for more specific and dedicated scripts that can be run and output to a file.
+Each directory contains a script that can be used. Naturally some of these commands do require some more specific parameters to be configured prior to running and you may need to run these as either `root` or with admin privilleges on Windows machines. As always, read the scripts and make sure you understand what they do before you run them. 
 
 # Rapid fire
 Only have a few minutes? Below is a quick referecne sheet for running commands to get an idea for what is being run on the system or what it might be used for. You can either save these to a file, or if you are using some termianl tool you could have that export/save the output of these commands to a file.
