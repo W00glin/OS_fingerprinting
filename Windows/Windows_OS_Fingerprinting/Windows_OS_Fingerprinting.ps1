@@ -19,7 +19,7 @@ sufficient permissions.
 # Create a timestamp and get the hostname for the filename
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $hostname = (Get-WmiObject Win32_ComputerSystem).Name
-$outputFile = "DetailedSystemInfo_$hostname_$timestamp.txt"
+$outputFile = "DetailedSystemInfo_${hostname}_$timestamp.txt"
 
 # Function to run a command and write its output to the file
 function Run-Command($command, $description) {
