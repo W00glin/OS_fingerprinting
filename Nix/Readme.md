@@ -1,4 +1,4 @@
-#Notes:
+# Notes:
 
 - Permissions: Some commands may require elevated privileges (root access). Consider running this script with sudo if necessary.
     - Command Adjustments:
