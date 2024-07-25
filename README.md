@@ -74,26 +74,26 @@ systemctl --type=service --state=active
 This could even be combined with my [SANS cheatsheet for Windows found here](https://gist.github.com/W00glin/62af880394fbf7eb2b4c74fc126950bb).
 # Network connections
 ```powershell
-"netstat -ao"
+netstat -ao
 ```
 
 ### User accounts
 ```powershell
-"net users" 
+net users
 ```
 #### Running tasks
 ```powershell
-"tasklist" 
+tasklist 
 ```
 
 ### Examine for anomalies
 
 # Firewall rules
 ```powershell
-"netsh advfirewall firewall show rule name=all"
+netsh advfirewall firewall show rule name=all
 ```
 
 # Scheduled tasks
 ```powershell
-"Get-ScheduledTask" 
-``
+Get-ScheduledTask
+```

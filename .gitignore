@@ -1,0 +1,3 @@
+# Ignore all DetailedSystemInfo files
+# Added so users do not accidentally upload system info files to their repos
+DetailedSystemInfo_*.txt
