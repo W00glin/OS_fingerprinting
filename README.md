@@ -86,6 +86,11 @@ net users
 tasklist 
 ```
 
+#### Account lockout configuration
+```powershell
+net accounts 
+```
+
 ### Examine for anomalies
 
 # Firewall rules
